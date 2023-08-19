@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+
+
+}
+
+html{
+
+    scroll-behavior: smooth;}
+
+#line p{
+    background-color: #000000;
+    padding: 8px;
+}
+/*------------ L O G O ------------*/
+
+#logo img{
+    margin-left: 2%;
+    margin-right: 3%;
+    padding-top: 10px;
+    max-width:200px;
+    max-height:190px;
+}
+/*------------ S E A R C H ------------*/
+.lupa{
+    
+    width: 1.5em;
+    height: 1.5em;
+    padding-left: 1.5%;
+    top: 92px;
+    color: #000000;
+}
+.search-box{
+    justify-content:start;
+    top: 12%;
+    background: #d9d9d9;
+    height: 35px;
+    border-radius: 20px;
+    padding: .5px;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    min-width: 150px;
+    opacity: 89%;
+    flex-direction: row-reverse
+
+}
+.quemsomos{
+    text-decoration: none;
+    color: #000000;
+}
+.search-tex{
+    background: none;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    font-size: 1rem;
+    width: 30%;
+    transition: 0.4s;
+    padding-right: 1.5%;
+    
+    
+}
+.search-btn{
+    width:50px ;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------------ H E A D E R ------------*/
+#user img{
+    padding-left: 1.5%;
+    padding-right: 1%;
+}
+#user img, #carrinho img{
+    display: flex;
+    justify-content: space-between;
+    margin-left:5px;
+    max-width: 38px;
+    max-height: 38px;
+    padding-right: 5px;
+}
+
+#menu{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background: #F1EFE7;
+}
+.icones-header{
+    display: flex;
+    padding-right: 5%;
+
+}
+
+.drop{
+    background-color: #F1EFE7;
+    padding-left: 30px;
+
+    padding-bottom: 15px;
+}
+.dropdown {
+    
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    color: #000000;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.dropdown-content {
+    border-radius: 15px;
+    background-color: #F1EFE7;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+    
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+}
+
+.dropdown:hover .dropbtn {
+    color: #d9d9d9;
+    transition: 0.5s;
+    
+}
+
+/*------------ F O O T E R ------------*/
+
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-10) ;
+
+}
+
+#footer_img{
+    margin-left: 2%;
+    margin-right: 3%;
+    
+    max-width:90%;
+    max-height:60%;
+}
+.footer-link{
+    text-decoration: none;
+
+}
+#footer_content{
+    background-color: var(--color-neutral-0);
+    display: flex;    
+    top: auto;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+.txt-footer{    
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5px;
+}
+
+
+#footer_social_media{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    padding-right: 5%;
+}
+
+#footer_social_media .footer-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-0);
+    border-radius: 50%;
+    transition: 0.4s;
+}
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;
+}
+#footer_social_media .footer-link:hover{
+    opacity: 0.9;
+    
+}
+#instagram{    
+    background: var(--color-neutral-10);
+}
+#facebook{
+    background-color: var(--color-neutral-10);
+}
+#whatsapp{
+    background-color: var(--color-neutral-10);
+}
+
+
+#footer_copyright{
+    display: flex;
+    color: var(--color-neutral-40);
+    justify-content: center;
+    background-color: var(--color-neutral-10);
+    font-size: 0.9rem;
+    padding: 0.8rem;
+    font-weight: 100;
+    
+
+    
+}
+
+/*#footer_img{
+    margin-left: 30px;
+    margin-right: 45px;
+    padding-top: 15px;
+    max-width:200px;
+    max-height:190px;
+
+}
+*/
+
+
+
+/*------ PALETA DE CORES ------*/
+:root{
+    --color-neutral-0: #f1efe7;
+    --color-neutral-10: #000000;
+    --color-neutral-40: #f5f5f5;
+  
+}
