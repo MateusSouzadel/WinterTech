@@ -1,4 +1,4 @@
-form {
+/*form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,7 +70,7 @@ button{
 }
 
   /* ---------- Estilos dinâmicos ---------- */
-
+/*
 
 .error {
     border: solid 2px #992020;
