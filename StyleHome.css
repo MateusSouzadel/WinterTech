@@ -116,19 +116,18 @@ nav ul button{
     font-size: 18px;
     margin: 10px;
   }
-  .text-ind {
-    width: 100%;
-    margin-left: 25%;
+  .text-ind h1{
+    width: 170%;
+    margin-left: 45%;
     text-align: center;
-    margin-bottom: px;
+ 
   }
  .text-ind p{
-    font-size: 18px;
-    width: auto;
-    align-items: center;
-
-  
+    width: 200%;
+    margin-left: 25%;
+    text-align: center;
  }
+  
     
 }
 
@@ -178,16 +177,17 @@ main{
   align-items: center;
   justify-content: space-between;
 }
-.text-ind{
-  width: 47%;
+.text-ind {
+  width: 38%;
 }
 .text-ind h1{
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 .text-ind p{
   color: var(--color-neutral-10);
   font-weight: 400;
   margin-top: 20px;
+  
 }
 
