@@ -1,27 +1,8 @@
-var radio = document.querySelector('.manual-btn')
-var cont = 1
 var menu = document.querySelector('nav ul');
 var menuBar = document.querySelector('nav .menu-icon');
 var iconMenu = document.querySelector('nav .menu-icon img')
 
-document.getElementById('radio1').checked = true
-
-setInterval(() => {
-    proximaImg()
-}, 3000)
-
-function proximaImg(){
-    cont++
-
-    if(cont > 3){
-        cont = 1
-    }
-
-    document.getElementById('radio'+cont).checked = true
-
-}
-
-
+/* MENU */
 
 menuBar.addEventListener('click',function(){
 
