@@ -117,17 +117,27 @@ nav ul button{
     margin: 10px;
   }
   .text-ind h1{
-    width: 170%;
-    margin-left: 45%;
+    width: 100%;
     text-align: center;
  
   }
- .text-ind p{
-    width: 200%;
-    margin-left: 25%;
-    text-align: center;
+
+ main{
+  flex-direction: column;
  }
-  
+  .text-ind,
+  .img-bx{
+    width: 100%;
+    text-align: center;
+  }
+
+  .text-ind{
+    margin-bottom: 40px;
+  }
+  .text-ind .input-bx{
+    justify-content: center;
+  }
+
     
 }
 
@@ -170,9 +180,9 @@ a:hover::before {
 /* -- END MENU -- */
 
 main{
-  margin-top: 50px;
-  margin-left: 4%;
-  padding: 1%;
+  margin-top: 8%;
+  margin-left: 5%;
+  padding: 1.5%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -186,8 +196,61 @@ main{
 }
 .text-ind p{
   color: var(--color-neutral-10);
-  font-weight: 400;
-  margin-top: 20px;
+  font-weight: 400px;
+  margin-top: 28px;
+  
+}
+.text-ind .input-bx{
+  margin: 20px 0;
+  display: flex;
+}
+
+.text-ind .input-bx input{
+  width: 75%;
+  border-radius: 1em 0 0 0;
+  display: block;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.text-ind .input-bx input::placeholder{
+  color: var(--color-neutral-10);
+  padding: 5px;
+}
+
+.text-ind .input-bx button{
+  outline: none;
+  border: none;
+  border-radius: 0 0 1em;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: var(--color-neutral-0);
+  cursor: pointer;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.input-bx button:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: var(--color-neutral-40);
+  transition: 0.9s;
+  color: #000000;
+  transform: scale(1.1) ;
+
+}
+.img-bx{
+  width: 60%;
+  margin-right: 6em;
   
 }
 
+.img-bx img{
+  width: 100%;
+  
+  
+}
