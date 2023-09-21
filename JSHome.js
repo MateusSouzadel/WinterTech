@@ -15,3 +15,23 @@ menuBar.addEventListener('click',function(){
 
    menu.classList.toggle('active');
 });
+
+
+let emailInput  = document.getElementById('email')
+let emailLabel = document.querySelector('label[for="email"]');
+let emailHelper = document.getElementById("email-helper");
+
+togglePopup(emailInput,emailLabel)
+
+emailInput.addEventListener('change', (event)=>{
+    let value = event.target.value;
+
+    if(value.includes('@') && value.includes('.com')){
+        estilizarInputCorreto(emailInput,emailHelper);
+        inputsCorretos.email = true
+    } else{
+        emailHelper.innerText = "Você precisa inserir um email válido"
+        estilizarInputIncorreto(emailInput,emailHelper);
+        inputsCorretos.email = false
+    }
+})    
